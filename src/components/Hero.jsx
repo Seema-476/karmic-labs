@@ -16,7 +16,7 @@ const Hero = () => {
               <Description classStyle='lg:max-w-[495px] pt-1 max-lg:text-center' text='Vulputate tristique habitant neque, accumsan. Vitae ultrices nulla erat nibh aliquam, quis tempus volutpat arcu. Leo convallis luctus dis malesuada turpis non consequat ac.' />
               <div className='flex  sm:pt-10 pt-5 sm:gap-8 gap-5'>
                 <CustomButton classStyle="!py-[9.2px] !px-6 bg-white flex items-center gap-[10px] border border-white hover:text-white hover:bg-transparent transition-all duration-500" text="Get Started" customClass="!block fill-black group-hover:translate-x-0.5 transition-all duration-500" />
-                <CustomButton text="Read More" classStyle="!py-[9.2px] !px-[31px] font-light bg-transparent !text-white border border-white hover:!text-black hover:bg-white transition-all duration-500" />
+                <CustomButton text="Read More" classStyle="!py-[9.2px] !px-[31px] font-light bg-transparent !text-white border border-white hover:text-z-black hover:bg-white transition-all duration-500" />
               </div>
 
             </div>

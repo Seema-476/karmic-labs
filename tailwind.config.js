@@ -30,7 +30,7 @@ module.exports = {
       },
       colors: {
         'dusk-black': "#FFFFFF1A",
-        'Z-black': "#040404",
+        'z-black': "#040404",
       },
 
       boxShadow: {

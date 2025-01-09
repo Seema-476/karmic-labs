@@ -9,7 +9,7 @@ const Services = () => {
             <div className='absolute right-0 -top-[37%] -z-10 lg:block hidden'><img src="assets/images/svg/services-right-ellipse.svg" alt="services-right-ellipse" /></div>
             <div className='container'>
                 <div className='relative'>
-                    <img src="/assets/images/svg/services-line.svg" alt="services-line" className='xl:max-w-[344px] max-w-[347px] mx-auto absolute xl:left-[35%] left-[32%] xl:-bottom-3 -bottom-[9px] lg:block hidden'/>
+                    <img src="/assets/images/svg/heading-line.svg" alt="services-line" className='xl:max-w-[344px] max-w-[347px] mx-auto absolute xl:left-[35%] left-[32%] xl:-bottom-3 -bottom-[9px] lg:block hidden'/>
                     <Heading text="Services" />
                 </div>
                 <div className='flex flex-row flex-wrap -mx-3 xl:pt-[77px] md:pt-12 pt-8'>
