@@ -7,25 +7,28 @@ export const SERVICES_DATA = [
             "Tailored smart contracts to fit your needs, no matter the size. No idea is too big, too small, or too degen... ",
     },
     {
-        circle: "",
+        circle: "/assets/images/png/white-circle.png",
         image: "/assets/images/svg/web-services.svg",
         title: "Game Changer!",
         description:
             "Tailored smart contracts to fit your needs, no matter the size. No idea is too big, too small, or too degen... ",
     },
     {
+        circle: "/assets/images/png/white-circle.png",
         image: "/assets/images/svg/media.svg",
         title: "This is Gold!",
         description:
             "We have worked with some of the spaces most reputable figures to drive audiences.",
     },
     {
+        circle: "/assets/images/png/white-circle.png",
         image: "/assets/images/svg/consultation.svg",
         title: "Game Changer!",
         description:
             "Have an idea but not sure where to start? Hop on a call with us and we will help you to put plans into action.",
     },
     {
+        circle: "/assets/images/png/white-circle.png",
         image: "/assets/images/svg/nft-services.svg",
         title: "Game Changer!",
         description:
