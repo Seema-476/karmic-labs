@@ -1,8 +1,6 @@
-import React from 'react'
-
-const Description = () => {
+const Description = ({ text, classStyle }) => {
   return (
-    <div>Description</div>
+    <p className={`sm:text-base text-sm leading-7 text-white font-normal font-space-grotesk ${classStyle}`}>{text}</p>
   )
 }
 

@@ -30,11 +30,15 @@ module.exports = {
       },
       colors: {
         'dusk-black': "#FFFFFF1A",
+        'Z-black': "#040404",
       },
+
       boxShadow: {
         'custom-xl': "0px 4px 20px 0px #00000026",
+        'custom-2xl': "0px 4px 16px 0px #FFFFFF1A",
       },
       backgroundImage: {
+        'hero-bg-layer': "url('/public/assets/images/webp/hero-bg-layer.webp')",
       },
       fontFamily: {
         'sunflower': "'sunflower', sans-serif",
