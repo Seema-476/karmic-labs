@@ -30,7 +30,10 @@ const Header = () => {
   }, [isMenuOpen])
 
   return (
-    <div className="sm:py-7 py-4 flex items-center lg:h-[100px] sm:h-20">
+    <div className="sm:py-7 py-4 flex items-center lg:h-[100px] sm:h-20 relative">
+      <div className='absolute top-0 left-0 -z-10'>
+        <img src="/assets/images/svg/header-ellipse.svg" alt="header-ellipse" />
+      </div>
       <div className="container">
         <div className="flex justify-between items-center lg:h-[100px] sm:h-20">
           <a href="/">
@@ -79,7 +82,7 @@ const Header = () => {
                 ))}
               </div>
             </div>
-            <CustomButton classStyle={'bg-white'} text={'Connect Wallet'} />
+            <CustomButton classStyle={'bg-white md:!py-[11.3px] hover:text-white hover:bg-transparent'} text={'Connect Wallet'} classDesign={'hidden'}/>
           </div>
         </div>
       </div>

@@ -5,9 +5,9 @@ import CustomButton from '../common/CustomButton';
 
 const Projects = () => {
     return (
-        <div className="lg:pt-24 md:pt-20 pt-16 lg:pb-[136px] md:pb-[68px] pb-16">
+        <div className="lg:pt-24 md:pt-20 pt-16 lg:pb-[68px] pb-16 duration-700" id='down'>
             <div className="container relative">
-                <div className="absolute lg:top-[-4%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-1%] lg:block hidden">
+                <div className="absolute xl:top-[-4%] top-[-1%] lg:left-[33%] md:left-[28%] left-[15%] lg:block hidden">
                     <img
                         src="/assets/images/svg/heading-line.svg"
                         alt="heading-line"
@@ -46,7 +46,7 @@ const Projects = () => {
                     ))}
                 </div>
                 <div className='text-center lg:pt-12 pt-7'>
-                    <CustomButton text="View All" classStyle="font-light font-medium bg-transparent !text-white border border-white hover:!text-z-black hover:bg-white transition-all duration-500" />
+                    <CustomButton text="View All" classStyle="font-light font-medium bg-transparent !text-white border border-white hover:!text-z-black hover:bg-white transition-all duration-500" classDesign={'hidden'}/>
                </div>
             </div>
         </div>

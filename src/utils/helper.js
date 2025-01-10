@@ -4,7 +4,7 @@ export const NAV_DATA_LINK = [
     { data: 'Projects', href: '#projects' },
     { data: 'About', href: '#about' },
 ];
-export const SERVICES_DATA = [
+export const SERVICES_CARDS = [
     {
         circle: "/assets/images/webp/white-circle.webp",
         image: "/assets/images/svg/smart-contract.svg",

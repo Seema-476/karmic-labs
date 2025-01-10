@@ -1,6 +1,6 @@
 import React from 'react'
 import Heading from '../common/Heading'
-import { SERVICES_DATA } from '../utils/helper'
+import { SERVICES_CARDS } from '../utils/helper'
 
 const Services = () => {
     return (
@@ -13,7 +13,7 @@ const Services = () => {
                     <Heading text="Services" />
                 </div>
                 <div className='flex flex-row flex-wrap -mx-3 xl:pt-[77px] md:pt-12 pt-8'>
-                    {SERVICES_DATA.map((service, index) => (
+                    {SERVICES_CARDS.map((service, index) => (
                         <div key={index} className='lg:w-[33.33%] sm:w-[50%] w-full px-[10.5px] lg:mb-10 sm:mb-6 mb-5 relative group'>
                             <div className='absolute -top-[18px] xl:-right-1 -right-2 group-hover:opacity-100 opacity-0 transition-opacity duration-700 -z-10'>
                                 <img src={service.circle} alt="circle" className='xl:w-[73px] xl:h-[74px] size-16 shadow-custom-2xl' />

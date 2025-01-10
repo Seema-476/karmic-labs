@@ -5,3 +5,6 @@ body{
   background-size: cover;
   font-family: 'Space Grotesk',sans-serif !important;
 }
+.started-btn:hover svg {
+fill: white !important;
+}
