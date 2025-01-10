@@ -10,8 +10,9 @@ const Hero = () => {
         <div className='lg:flex-row flex-col flex justify-between lg:pt-[173px] md:pt-20 pt-12 gap-5'>
           <div className='lg:w-[570px] w-full flex flex-col justify-center'>
             <div className='flex flex-col justify-center max-lg:items-center'>
-              <h1 className='lg:text-custom-2xl sm:text-5xl text-4xl lg:leading-custom-7xl text-white uppercase lg:max-w-[570px] max-lg:text-center font-sunflower'>We are believers decentralization <img className='ms-[142px] max-w-[158px] w-full lg:block hidden' src="/assets/images/svg/main-heading-bottom-line.svg" alt="second-line" /> And Web3.
-                <img className='ms-[111px] max-w-[169px] w-full lg:block hidden' src="/assets/images/svg/main-heading-top-line.svg" alt="first-line" />
+              <h1 className='lg:text-custom-2xl sm:text-5xl text-4xl lg:leading-custom-7xl text-white uppercase lg:max-w-[570px] max-lg:text-center font-sunflower'>We are believers decentralization
+                <img className='lg:ms-[142px] md:ms-[343px] sm:ms-[285px] ms-[155px] lg:max-w-[158px] sm:max-w-[125px] max-w-24 w-full' src="/assets/images/svg/main-heading-bottom-line.svg" alt="second-line" /> And Web3.
+                <img className='lg:ms-[111px] md:ms-[343px] sm:ms-[285px] ms-[155px] lg:max-w-[169px] sm:max-w-[125px] max-w-24 w-full' src="/assets/images/svg/main-heading-top-line.svg" alt="first-line" />
               </h1>
               <Description classStyle='lg:max-w-[495px] pt-3 max-lg:text-center sm:!leading-custom-5xl' text='Vulputate tristique habitant neque, accumsan. Vitae ultrices nulla erat nibh aliquam, quis tempus volutpat arcu. Leo convallis luctus dis malesuada turpis non consequat ac.' />
               <div className='flex sm:pt-10 pt-5 sm:gap-8 gap-5'>

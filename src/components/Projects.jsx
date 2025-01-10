@@ -1,56 +1,55 @@
-import React from 'react';
+import React from 'react'
 import Heading from '../common/Heading';
-import { UPCOMING_PROJECTS } from '../utils/helper';
+import { PROJECTS_IMAGES } from '../utils/helper'
 import CustomButton from '../common/CustomButton';
+import Description from '../common/Description';
 
 const Projects = () => {
     return (
-        <div className="lg:pt-24 md:pt-20 pt-16 lg:pb-[68px] pb-16 duration-700" id='down'>
-            <div className="container relative">
-                <div className="absolute xl:top-[-4%] top-[-1%] lg:left-[33%] md:left-[28%] left-[15%] lg:block hidden">
+        <div className='bg-cover bg-center bg-no-repeat bg-projects-bg-white-layer xl:h-[902px] pt-[150px] sm:pt-[99px] lg:pb-[160px] pb-32' id='projects'>
+            <div className='container relative'>
+                <div className="absolute lg:top-[-3%] xl:left-[35.5%] lg:left-[32%] left-[25%] md:top-[-1%] md:left-[36%] sm:left-[32%] sm:top-[-1%] -top-[7px]">
                     <img
-                        src="/assets/images/svg/heading-line.svg"
-                        alt="heading-line"
-                        className="md:w-[344px] w-[250px]"
+                        src="/assets/images/svg/heading-black-line.svg"
+                        alt="black-line"
+                        className="lg:w-[344px] md:w-[200px] sm:w-[220px] w-[180px]"
                     />
                 </div>
                 <Heading
-                    text={'Upcoming Projects'}
-                    classStyle={'lg:!pb-12 md:!pb-10 !pb-8'}
-                />
-                <div className="flex m ax-lg:flex-wrap flex-wrap flex-row justify-center -mx-3">
-                    {UPCOMING_PROJECTS.map((project) => (
+                    text={'Projects'}
+                    classStyle={'lg:!pb-5 text-center !text-z-black z-10'} />
+                <Description text={'Id nam massa sit ut purus tortor est ultrices nunc. Ipsum, nibh egestas vehicula tellus. Molestie adipiscing diam nibh lectus. Magna id nisl quis vestibulum rhoncus.'}
+                classStyle={'text-z-black max-w-[532px] text-center mx-auto'}/>
+                <div className='flex flex-wrap pt-[29px] max-md:pt-4 justify-center'>
+                    {PROJECTS_IMAGES.map((obj, i) => (
                         <div
-                            key={project.id}
-                            className="xl:w-[25%] sm:w-[50%] w-full xl:px-[14.5px] px-3 mb-6"
+                            key={i}
+                            className={`w-3/12 flex max-lg:w-4/12 max-md:w-6/12 max-sm:w-full px-2 pt-6`}
                         >
-                            <div className='p-4 border backdrop-blur-[10px] bg-white/10 rounded-xl border-dusk-black xl:max-w-[263px] w-full'>
+                            <div
+                                className={`max-w-[273px] mx-auto hover:scale-125 hover:!z-20 overflow-hidden group transition-all relative duration-300 cursor-pointer flex w-full rounded-lg justify-center  ${i === 0 ? 'bg-sky-blue' : ''
+                                    }`}
+                            >
                                 <img
-                                    src={project.image}
-                                    alt={project.title}
-                                    className="pb-4 w-full"
+                                    className=" w-full rounded-lg"
+                                    src={obj.image}
+                                    alt='projects-image'
                                 />
-                                <div className="flex justify-between">
-                                    <p className="font-sunflower font-medium lg:text-xl text-base lg:leading-custom-3xl text-white">
-                                        {project.title}
-                                    </p>
-                                    <p className="font-sunflower font-bold lg:text-base text-sm lg:leading-custom-xl text-white">
-                                        {project.time}
+                                <div className='absolute min-h-[47px] flex justify-center items-center shadow-shadow-2xl bg-gray transition-all duration-300 w-full group-hover:bottom-0 bottom-[-50%]'>
+                                    <p className='text-white text-base leading-5 sm:text-xl sm:leading-custom-2xl font-bold'>
+                                        {obj.title}
                                     </p>
                                 </div>
-                                <p className="font-light text-base leading-custom-5xl text-white">
-                                    {project.category}
-                                </p>
-                           </div>
+                            </div>
                         </div>
                     ))}
                 </div>
-                <div className='text-center lg:pt-12 pt-7'>
-                    <CustomButton text="View All" classStyle="font-light font-medium bg-transparent !text-white border border-white hover:!text-z-black hover:bg-white transition-all duration-500" classDesign={'hidden'}/>
-               </div>
+                <div className='text-center mx-auto pt-14'>
+                    <CustomButton text="View All" classStyle="font-medium bg-transparent !text-z-black border border-z-black hover:!text-white hover:bg-z-black hover:border-transparent" classDesign={'hidden'} />
+                </div>
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default Projects;
+export default Projects

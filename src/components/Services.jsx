@@ -4,12 +4,13 @@ import { SERVICES_CARDS } from '../utils/helper'
 
 const Services = () => {
     return (
-        <div className='pt-[68px] relative'>
-            {/* <div className='absolute left-0 -bottom-[37%] -z-10 lg:block hidden'><img src="assets/images/svg/services-left-ellipse.svg" alt="services-left-ellipse" /></div> */}
+        <div className='pt-[68px] relative' id='services'>
+            <div className='absolute left-0 -bottom-[37%] -z-10 lg:block hidden'><img src="assets/images/svg/services-left-ellipse.svg" alt="services-left-ellipse" /></div>
             <div className='absolute right-0 -top-[37%] -z-10 lg:block hidden'><img src="assets/images/svg/services-right-ellipse.svg" alt="services-right-ellipse" /></div>
             <div className='container'>
                 <div className='relative'>
-                    <img src="/assets/images/svg/heading-line.svg" alt="services-line" className='xl:max-w-[344px] max-w-[347px] mx-auto absolute xl:left-[35%] left-[32%] xl:-bottom-3 -bottom-[9px] lg:block hidden'/>
+                    <img src="/assets/images/svg/heading-line.svg" alt="services-line"
+                        className='lg:max-w-[344px] md:max-w-[220px] sm:max-w-[210px] max-w-[190px] mx-auto absolute xl:left-[35%] lg:left-[32%] md:left-[34%] sm:left-[32%] left-[21%] xl:-bottom-3 lg:-bottom-[9px] md:bottom-[-6px] -bottom-1' />
                     <Heading text="Services" />
                 </div>
                 <div className='flex flex-row flex-wrap -mx-3 xl:pt-[77px] md:pt-12 pt-8'>

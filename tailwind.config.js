@@ -12,7 +12,7 @@ module.exports = {
           'sm': "640px",
           'md': "768px",
           'lg': "1024px",
-          'xl': "1240px",
+          'xl': "1180px",
         }
       },
       fontSize: {
@@ -31,7 +31,9 @@ module.exports = {
       colors: {
         'dusk-black': "#FFFFFF1A",
         'z-black': "#040404",
-      },
+        'gray': "#4d4d4d",
+        'off-white': "#FFFFFF4D",
+      }, 
 
       boxShadow: {
         'custom-xl': "0px 4px 20px 0px #00000026",
@@ -39,6 +41,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero-bg-layer': "url('/public/assets/images/webp/hero-bg-layer.webp')",
+        'projects-bg-white-layer': "url('/public/assets/images/webp/project-bg.webp')",
       },
       fontFamily: {
         'sunflower': "'sunflower', sans-serif",

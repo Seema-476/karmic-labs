@@ -3,8 +3,9 @@ import BackToTop from './common/BackToTop';
 import PreLoader from './common/Preloader';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Projects from './components/Projects';
+import UpcomingProjects from './components/UpcomingProjects';
 import Services from './components/Services';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       <PreLoader/>
       <Header/>
       <Hero />
-      <Projects/>
+      <UpcomingProjects />
       <Services />
+      <Projects/>
       <BackToTop/>
     </>
   );

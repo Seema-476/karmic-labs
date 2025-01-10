@@ -1,8 +1,8 @@
-export const NAV_DATA_LINK = [
-    { data: 'Home', href: '#home' },
-    { data: 'Services', href: '#services' },
-    { data: 'Projects', href: '#projects' },
-    { data: 'About', href: '#about' },
+export const NAV_DATA_LIST = [
+    { data: 'Home', link: '#home' },
+    { data: 'Services', link: '#services' },
+    { data: 'Projects', link: '#projects' },
+    { data: 'About', link: '#about' },
 ];
 export const SERVICES_CARDS = [
     {
@@ -85,3 +85,37 @@ export const UPCOMING_PROJECTS = [
         category: 'NFT',
     },
 ];
+export const PROJECTS_IMAGES = [
+    {
+        image: "/assets/images/webp/project-nubbies.webp",
+        title: 'Nubbies'
+    },
+    {
+        image: "/assets/images/webp/projects-image-two.webp",
+        title: 'Nubbies'
+    },
+    {
+        image: "/assets/images/webp/projects-image-three.webp",
+        title: 'Nubbies'
+    },
+    {
+        image: "/assets/images/webp/projects-image-four.webp",
+        title: 'Nubbies'
+    },
+    {
+        image: "/assets/images/webp/projects-image-five.webp",
+        title: 'Nubbies'
+    },
+    {
+        image: "/assets/images/webp/projects-image-six.webp",
+        title: 'Nubbies'
+    },
+    {
+        image: "/assets/images/webp/projects-image-seven.webp",
+        title: 'Nubbies'
+    },
+    {
+        image: "/assets/images/webp/projects-image-eight.webp",
+        title: 'Nubbies'
+    },
+]

@@ -1,5 +1,5 @@
 import React from 'react';
-import { NAV_DATA_LINK, DATA_LINK } from '../utils/helper';
+import { NAV_DATA_LIST} from '../utils/helper';
 import { useEffect, useState } from 'react';
 import CustomButton from '../common/CustomButton';
 
@@ -41,7 +41,7 @@ const Header = () => {
           </a>
           <div className='lg:block hidden'>
             <div className="flex gap-8 items-center">
-              {NAV_DATA_LINK.map((obj, index) => (
+              {NAV_DATA_LIST.map((obj, index) => (
                 <a onClick={toggleMenu}
                   key={index}
                   className="font-normal hover:font-bold transition-all duration-500 text-base leading-5 text-white"
@@ -72,17 +72,17 @@ const Header = () => {
           <div className={`menuList ${isMenuOpen ? 'max-lg:left-0' : 'max-lg:left-[-100%]'} z-10 gap-8 max-lg:w-full max-lg:fixed max-lg:justify-center max-lg:top-0 max-lg:bg-black max-lg:flex-col max-lg:transition-all duration-300 flex items-center max-lg:min-h-screen`}>
             <div className='lg:hidden block'>
               <div className='flex-col flex gap-6 items-center'>
-                {NAV_DATA_LINK.map((obj, index) => (
+                {NAV_DATA_LIST.map((obj, index) => (
                   <a onClick={toggleMenu}
                     key={index}
                     className="font-normal hover:font-bold transition-all duration-500 text-base leading-5 text-white"
-                    href={obj.href}>
+                    href={obj.link}>
                     {obj.data}
                   </a>
                 ))}
               </div>
             </div>
-            <CustomButton classStyle={'bg-white md:!py-[11.3px] hover:text-white hover:bg-transparent'} text={'Connect Wallet'} classDesign={'hidden'}/>
+            <a href="#home"> <CustomButton classStyle={'bg-white md:!py-[11.3px] hover:text-white hover:bg-transparent'} text={'Connect Wallet'} classDesign={'hidden'} /></a>
           </div>
         </div>
       </div>
