@@ -11,7 +11,7 @@ const UpcomingProjects = () => {
                     <img
                         src="/assets/images/svg/heading-line.svg"
                         alt="heading-line"
-                        className="lg:w-[344px] sm:w-[250px] w-[190px]"/>
+                        className="lg:w-[344px] sm:w-[250px] w-[190px] pointer-events-none"/>
                 </div>
                 <Heading
                     text={'Upcoming Projects'}
@@ -27,7 +27,7 @@ const UpcomingProjects = () => {
                                 <img
                                     src={project.image}
                                     alt={project.title}
-                                    className="pb-4 w-full"
+                                    className="pb-4 w-full pointer-events-none"
                                 />
                                 <div className="flex justify-between">
                                     <p className="font-sunflower font-medium lg:text-xl text-base lg:leading-custom-3xl text-white">

@@ -12,7 +12,7 @@ const Projects = () => {
                     <img
                         src="/assets/images/svg/heading-black-line.svg"
                         alt="black-line"
-                        className="lg:w-[344px] md:w-[200px] sm:w-[220px] w-[180px]"
+                        className="lg:w-[344px] md:w-[200px] sm:w-[220px] w-[180px] pointer-events-none"
                     />
                 </div>
                 <Heading
@@ -31,7 +31,7 @@ const Projects = () => {
                                     }`}
                             >
                                 <img
-                                    className=" w-full rounded-lg !max-w-[273px] min-h-[179px]"
+                                    className=" w-full rounded-lg !max-w-[273px] min-h-[179px] pointer-events-none"
                                     src={obj.image}
                                     alt='projects-image'
                                 />

@@ -10,7 +10,7 @@ const Services = () => {
             <div className='container'>
                 <div className='relative'>
                     <img src="/assets/images/svg/heading-line.svg" alt="services-line"
-                        className='lg:max-w-[344px] md:max-w-[220px] sm:max-w-[210px] max-w-[190px] mx-auto absolute xl:left-[35%] lg:left-[32%] md:left-[34%] sm:left-[32%] left-[21%] xl:-bottom-3 lg:-bottom-[9px] md:bottom-[-6px] -bottom-1' />
+                        className='lg:max-w-[344px] md:max-w-[220px] sm:max-w-[210px] max-w-[190px] mx-auto absolute xl:left-[35%] lg:left-[32%] md:left-[34%] sm:left-[32%] left-[21%] xl:-bottom-3 lg:-bottom-[9px] md:bottom-[-6px] -bottom-1 pointer-events-none' />
                     <Heading text="Services" />
                 </div>
                 <div className='flex flex-row flex-wrap -mx-3 xl:pt-[77px] md:pt-12 pt-8'>
@@ -23,7 +23,7 @@ const Services = () => {
                                 <img
                                     src={service.image}
                                     alt={service.title}
-                                    className="size-10"
+                                    className="size-10 pointer-events-none"
                                 />
                                 <h3 className="font-bold text-xl leading-custom-4xl text-white lg:pt-5 pt-4 pb-[6px]">
                                     {service.title}

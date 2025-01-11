@@ -45,7 +45,10 @@ module.exports = {
       },
       fontFamily: {
         'sunflower': "'sunflower', sans-serif",
-      }
+      },
+        backgroundSize: {
+        'hero-bg-set': '100% 726px'
+      },
     },
   },
   plugins: [],
