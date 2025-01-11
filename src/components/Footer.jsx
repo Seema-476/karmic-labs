@@ -4,7 +4,7 @@ import { SOCIAL_LINKS } from '../utils/helper'
 const Footer = () => {
     const currentYear = new Date().getFullYear()
   return (
-      <>
+      <div className='pt-[50px]'>
           <div className='container'>
               <a href="/"><img src="/assets/images/webp/footer-logo.webp" alt="footer-logo" className='lg:max-w-[255px] max-w-[210px] mx-auto xl:pb-[69px] lg:pb-14 pb-9' /></a>
               <div className='flex items-center md:gap-6 gap-4 justify-center pb-4'>
@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
           <div className='w-full border border-white'></div>
           <p className='font-normal text-base leading-custom-5xl text-white opacity-70 mx-auto text-center lg:pt-4 lg:pb-[18px] py-3'>© Karmic labs {currentYear}</p>
-      </>
+      </div>
   )
 }
 

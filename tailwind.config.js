@@ -37,9 +37,10 @@ module.exports = {
       boxShadow: {
         'custom-xl': "0px 4px 20px 0px #00000026",
         'custom-2xl': "0px 4px 16px 0px #FFFFFF1A",
+        'custom-3xl': "0px 4px 15px 0px #FFFFFF1A",
       },
       backgroundImage: {
-        'hero-bg-layer': "url('/public/assets/images/webp/hero-bg-layer.webp')",
+        'hero-bg-layer': "url('/public/assets/images/png/hero-bg.png')",
         'projects-bg-white-layer': "url('/public/assets/images/webp/project-bg.webp')",
       },
       fontFamily: {

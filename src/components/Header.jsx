@@ -30,12 +30,12 @@ const Header = () => {
   }, [isMenuOpen])
 
   return (
-    <div className="sm:py-7 py-4 flex items-center lg:h-[100px] sm:h-20 relative">
+    <div className="flex items-end relative">
       <div className='absolute top-0 left-0 -z-10'>
         <img src="/assets/images/svg/header-ellipse.svg" alt="header-ellipse" />
       </div>
       <div className="container">
-        <div className="flex justify-between items-center lg:h-[100px] sm:h-20">
+        <div className="flex justify-between items-center lg:h-[71px] h-16">
           <a href="/">
             <img className='lg:max-w-[156px] max-w-[120px] pointer-events-none' src="/assets/images/webp/header-logo.webp" alt="nav-logo" />
           </a>

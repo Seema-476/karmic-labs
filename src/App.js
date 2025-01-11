@@ -8,6 +8,7 @@ import Services from './components/Services';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Values from './components/Values';
+import Karmic from './components/Kramic';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <UpcomingProjects />
       <Services />
       <Projects />
+      <Karmic/>
       <Values/>
       <Footer/>
       <BackToTop/>

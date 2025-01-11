@@ -117,6 +117,20 @@ export const PROJECTS_IMAGES = [
         title: 'Nubbies'
     },
 ]
+export const WHO_KARMIC_DATA = [
+    {
+        src: "/assets/images/webp/digital-art.webp",
+        alt: "digital",
+    },
+    {
+        src: "/assets/images/webp/discover-collections.webp",
+        alt: "collection",
+    },
+    {
+        src: "/assets/images/webp/tokyo-ten.webp",
+        alt: "tokyo",
+    },
+];
 export const VALUES_CARDS = [
     {
         circle: "/assets/images/webp/white-circle.webp",

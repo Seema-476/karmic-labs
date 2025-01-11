@@ -1,10 +1,15 @@
-body{
+body {
   background-image: url("/public/assets/images/webp/karmic-bg.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Space Grotesk',sans-serif !important;
+  font-family: 'Space Grotesk', sans-serif !important;
 }
+
 .started-btn:hover svg {
-fill: white !important;
+  fill: white !important;
+}
+
+.text-stroke:hover {
+  -webkit-text-stroke: 0.5px white;
 }
