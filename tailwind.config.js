@@ -33,8 +33,7 @@ module.exports = {
         'z-black': "#040404",
         'gray': "#4d4d4d",
         'off-white': "#FFFFFF4D",
-      }, 
-
+      },
       boxShadow: {
         'custom-xl': "0px 4px 20px 0px #00000026",
         'custom-2xl': "0px 4px 16px 0px #FFFFFF1A",

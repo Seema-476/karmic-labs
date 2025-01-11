@@ -1,3 +1,4 @@
+import { BlockChain, FacebookIcon, InstagramIcon,Trust, TwitterIcon, ValueW, YoutubeIcon } from '../utils/icons'
 export const NAV_DATA_LIST = [
     { data: 'Home', link: '#home' },
     { data: 'Services', link: '#services' },
@@ -116,3 +117,41 @@ export const PROJECTS_IMAGES = [
         title: 'Nubbies'
     },
 ]
+export const VALUES_CARDS = [
+    {
+        circle: "/assets/images/webp/white-circle.webp",
+        cardSvgIcon:<ValueW/>,
+        title: "W3",
+        description: "Not your average degens. Karmic is lead by a team of Industry professionals with extensive backgrounds in web3 and web2. We are actively involved in all that we do. Boots on the ground. We know the ins and outs of the space, because we are building it.",
+    },
+    {
+        circle: "/assets/images/webp/white-circle.webp",
+        cardSvgIcon: <BlockChain />,
+        title: "Blockchain Agnostic ",
+        description: "Our team of seasoned developers will help you to launch your project on the network of your choosing- be it ethereum, solana, polygon, etc..",
+    },
+    {
+        circle: "/assets/images/webp/white-circle.webp",
+        cardSvgIcon: <Trust />,
+        title: "Trust",
+        description: "Trustless and results driven development backed by a portfolio of success. You're the captain of the ship, and the keys are always in your hands.",
+    },
+]
+export const SOCIAL_LINKS = [
+    {
+        link: 'https://www.instagram.com/',
+        icon: <InstagramIcon />,
+    },
+    {
+        link: 'https://x.com/i/flow/login',
+        icon: <TwitterIcon />,
+    },
+    {
+        link: 'https://www.facebook.com/',
+        icon: <FacebookIcon />,
+    },
+    {
+        link: 'https://www.youtube.com/',
+        icon: <YoutubeIcon />,
+    },
+];

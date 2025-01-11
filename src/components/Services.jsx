@@ -4,7 +4,7 @@ import { SERVICES_CARDS } from '../utils/helper'
 
 const Services = () => {
     return (
-        <div className='pt-[68px] relative' id='services'>
+        <div className='lg:pt-[68px] sm:pt-12 pt-6 relative' id='services'>
             <div className='absolute left-0 -bottom-[37%] -z-10 lg:block hidden'><img src="assets/images/svg/services-left-ellipse.svg" alt="services-left-ellipse" /></div>
             <div className='absolute right-0 -top-[37%] -z-10 lg:block hidden'><img src="assets/images/svg/services-right-ellipse.svg" alt="services-right-ellipse" /></div>
             <div className='container'>

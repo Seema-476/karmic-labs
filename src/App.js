@@ -6,6 +6,8 @@ import Hero from './components/Hero';
 import UpcomingProjects from './components/UpcomingProjects';
 import Services from './components/Services';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
+import Values from './components/Values';
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
       <Hero />
       <UpcomingProjects />
       <Services />
-      <Projects/>
+      <Projects />
+      <Values/>
+      <Footer/>
       <BackToTop/>
     </>
   );

@@ -5,9 +5,9 @@ import CustomButton from '../common/CustomButton';
 
 const UpcomingProjects = () => {
     return (
-        <div className="lg:pt-24 md:pt-20 pt-16 lg:pb-[68px] pb-16 duration-700" id='down'>
+        <div className="lg:pt-24 md:py-16 pt-12 lg:pb-[68px] sm:pb-12 pb-6 duration-700" id='down'>
             <div className="container relative">
-                <div className="absolute xl:top-[-4%] lg:top-[-1%] md:-top-[1%] sm:top-[-2%] -top-2 sm:left-[32%] lg:left-[33%] md:left-[35%] left-[24%]">
+                <div className="absolute xl:top-[-4%] lg:top-[-3%] md:-top-[1%] sm:top-[-2%] -top-2 sm:left-[32%] lg:left-[33%] md:left-[35%] left-[24%]">
                     <img
                         src="/assets/images/svg/heading-line.svg"
                         alt="heading-line"
