@@ -31,7 +31,7 @@ const Projects = () => {
                                     }`}
                             >
                                 <img
-                                    className=" w-full rounded-lg"
+                                    className=" w-full rounded-lg !max-w-[273px] min-h-[179px]"
                                     src={obj.image}
                                     alt='projects-image'
                                 />

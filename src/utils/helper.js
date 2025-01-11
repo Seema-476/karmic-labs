@@ -63,21 +63,18 @@ export const UPCOMING_PROJECTS = [
         time: '15 : 54 : 12',
         category: 'NFT',
     },
-
     {
         image: '/assets/images/webp/nekozuma.webp',
         title: 'Nekozuma',
         time: '15 : 54 : 12',
         category: 'NFT',
     },
-
     {
         image: '/assets/images/webp/galactium.webp',
         title: 'Galactium',
         time: '15 : 54 : 12',
         category: 'NFT',
     },
-
     {
         image: '/assets/images/webp/frenz-forever.webp',
         title: 'Frenz Forever',

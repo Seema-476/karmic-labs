@@ -1,11 +1,11 @@
 import React from 'react'
 import Description from '../common/Description'
 import CustomButton from '../common/CustomButton'
-import { DownArrow } from '../utils/icons'
+import { BtnArrow, DownArrow } from '../utils/icons'
 
 const Hero = () => {
   return (
-    <div className='lg:bg-hero-bg-layer bg-no-repeat max-lg:bg-center bg-cover lg:min-h-[746px] relative max-lg:bg-light-gray' id='home'>
+    <div className='lg:bg-hero-bg-layer bg-no-repeat max-lg:bg-center bg-cover 2xl: lg:min-h-[746px] relative max-lg:bg-light-gray' id='home'>
       <div className='container'>
         <div className='lg:flex-row flex-col flex justify-between lg:pt-[173px] md:pt-20 pt-12 gap-5'>
           <div className='lg:w-[570px] w-full flex flex-col justify-center'>
@@ -16,7 +16,7 @@ const Hero = () => {
               </h1>
               <Description classStyle='lg:max-w-[495px] pt-3 max-lg:text-center sm:!leading-custom-5xl' text='Vulputate tristique habitant neque, accumsan. Vitae ultrices nulla erat nibh aliquam, quis tempus volutpat arcu. Leo convallis luctus dis malesuada turpis non consequat ac.' />
               <div className='flex sm:pt-10 pt-5 sm:gap-8 gap-5'>
-                <CustomButton classStyle="started-btn !px-6 bg-white flex items-center gap-[10px] border border-white hover:text-white hover:bg-transparent" text="Get Started" imgSrc="/assets/images/svg/btn-arrow.svg" />
+                <CustomButton classStyle="started-btn !px-6 bg-white flex items-center gap-[10px] border border-white hover:text-white hover:bg-transparent group" text="Get Started" svg={<BtnArrow arrowClass={'group-hover:!fill-white duration-700'}/>} />
                 <CustomButton text="Read More" classStyle="font-light bg-transparent !text-white border border-white hover:!text-z-black hover:bg-white" classDesign={'hidden'} />
               </div>
 
