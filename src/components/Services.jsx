@@ -4,13 +4,13 @@ import { SERVICES_CARDS } from '../utils/helper'
 
 const Services = () => {
     return (
-        <div className='lg:pt-12 sm:pt-12 pt-6 relative -mb-10' id='services'>
+        <div className='lg:pt-12 sm:pt-12 pt-6 relative -mb-10 lg:pb-0' id='services'>
             <div className='absolute right-0 -top-[37%] -z-10 lg:block hidden'><img src="assets/images/svg/services-right-ellipse.svg" alt="services-right-ellipse" /></div>
             <div className='container'>
                     <img src="/assets/images/svg/heading-line.svg" alt="services-line"
-                        className='lg:max-w-[370px] md:max-w-[220px] sm:max-w-[210px] max-w-[190px] mx-auto pointer-events-none -mb-[74px]' />
+                        className='lg:max-w-[370px] md:max-w-[220px] sm:max-w-[210px] max-w-[190px] mx-auto pointer-events-none lg:-mb-[74px] -mb-11' />
                     <Heading text="Services" />
-                <div className='flex flex-row flex-wrap -mx-3 xl:pt-[77px] md:pt-12 pt-8'>
+                <div className='flex flex-row flex-wrap -mx-3 xl:pt-[77px] md:pt-12 pt-8 max-lg:justify-center'>
                     {SERVICES_CARDS.map((service, index) => (
                         <div key={index} className='lg:w-[33.33%] sm:w-[50%] w-full px-[8px] lg:mb-10 sm:mb-6 mb-5 relative group'>
                             <div className='absolute -top-[18px] xl:-right-1 -right-2 group-hover:opacity-100 opacity-0 transition-opacity duration-700 -z-10'>

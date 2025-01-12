@@ -45,7 +45,7 @@ const Header = () => {
                 <a onClick={toggleMenu}
                   key={index}
                   className="font-medium font-sunflower hover:font-bold transition-all duration-700 text-base leading-5 text-white cursor-pointer"
-                  href={obj.href}
+                  href={obj.link}
                 >
                   {obj.data}
                 </a>
@@ -75,7 +75,7 @@ const Header = () => {
                 {NAV_DATA_LIST.map((obj, index) => (
                   <a onClick={toggleMenu}
                     key={index}
-                    className="font-normal font-sunflower hover:font-bold transition-all duration-700 text-base leading-5 text-white cursor-pointer"
+                    className="font-medium font-sunflower hover:font-bold transition-all duration-700 text-base leading-5 text-white cursor-pointer"
                     href={obj.link}>
                     {obj.data}
                   </a>

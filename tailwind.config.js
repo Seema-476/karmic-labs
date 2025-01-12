@@ -41,14 +41,14 @@ module.exports = {
         'custom-3xl': "0px 4px 15px 0px #FFFFFF1A",
       },
       backgroundImage: {
-        'hero-bg-layer': "url('/public/assets/images/png/hero-bg.png')",
+        'hero-bg-layer': "url('/public/assets/images/webp/hero-bg-layer.webp')",
         'projects-bg-white-layer': "url('/public/assets/images/webp/project-bg.webp')",
       },
       fontFamily: {
         'sunflower': "'sunflower', sans-serif",
       },
-        backgroundSize: {
-          'hero-bg-set': '100% 100%',
+      backgroundSize: {
+        'hero-bg-set': '100% 100%',
       },
     },
   },
