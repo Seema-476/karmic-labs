@@ -31,6 +31,7 @@ module.exports = {
       colors: {
         'dusk-black': "#FFFFFF1A",
         'z-black': "#040404",
+        'dark-gray': "#1d1d1d",
         'gray': "#4d4d4d",
         'off-white': "#FFFFFF4D",
       },
@@ -47,7 +48,7 @@ module.exports = {
         'sunflower': "'sunflower', sans-serif",
       },
         backgroundSize: {
-        'hero-bg-set': '100% 726px'
+          'hero-bg-set': '100% 100%',
       },
     },
   },

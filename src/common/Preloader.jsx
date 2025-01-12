@@ -6,7 +6,7 @@ const PreLoader = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setPreLoader(false)
-    }, 1000)
+    }, 500)
   }, [])
 
   return (

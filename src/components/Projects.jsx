@@ -6,18 +6,13 @@ import Description from '../common/Description';
 
 const Projects = () => {
     return (
-        <div className='bg-cover bg-center bg-no-repeat bg-projects-bg-white-layer xl:h-[902px] pt-[150px] sm:pt-[99px] lg:pb-[160px] pb-32' id='projects'>
+        <div className='bg-hero-bg-set bg-center bg-no-repeat bg-projects-bg-white-layer xl:h-[902px] pt-[150px] sm:pt-[88px] lg:pb-[160px] pb-32 -mt-2' id='projects'>
             <div className='container relative'>
-                <div className="absolute lg:top-[-3%] xl:left-[35.5%] lg:left-[32%] left-[25%] md:top-[-1%] md:left-[36%] sm:left-[32%] sm:top-[-1%] -top-[7px]">
-                    <img
-                        src="/assets/images/svg/heading-black-line.svg"
-                        alt="black-line"
-                        className="lg:w-[344px] md:w-[200px] sm:w-[220px] w-[180px] pointer-events-none"
-                    />
-                </div>
+                <img src="/assets/images/svg/heading-black-line.svg" alt="services-line"
+                    className='lg:max-w-[370px] md:max-w-[220px] sm:max-w-[210px] max-w-[190px] mx-auto pointer-events-none -mb-[74px]' />
                 <Heading
                     text={'Projects'}
-                    classStyle={'lg:!pb-5 text-center !text-z-black z-10'} />
+                    classStyle={'lg:!pb-5 text-center !text-z-black z-10 -mt-1'} />
                 <Description text={'Id nam massa sit ut purus tortor est ultrices nunc. Ipsum, nibh egestas vehicula tellus. Molestie adipiscing diam nibh lectus. Magna id nisl quis vestibulum rhoncus.'}
                 classStyle={'text-z-black max-w-[532px] text-center mx-auto'}/>
                 <div className='flex flex-wrap pt-[29px] max-md:pt-4 justify-center'>
@@ -31,7 +26,7 @@ const Projects = () => {
                                     }`}
                             >
                                 <img
-                                    className=" w-full rounded-lg !max-w-[273px] min-h-[179px] pointer-events-none"
+                                    className=" w-full rounded-lg !max-w-[273px] min-h-[174px] pointer-events-none"
                                     src={obj.image}
                                     alt='projects-image'
                                 />
@@ -45,7 +40,7 @@ const Projects = () => {
                     ))}
                 </div>
                 <div className='text-center mx-auto pt-14'>
-                    <CustomButton text="View All" classStyle="font-medium bg-transparent !text-z-black border border-z-black hover:!text-white hover:bg-z-black hover:border-transparent" classDesign={'hidden'} />
+                    <CustomButton text="View All" classStyle="font-medium bg-transparent !py-[11.3px] !text-z-black border border-z-black hover:!text-white hover:bg-z-black hover:border-transparent" classDesign={'hidden'} />
                 </div>
             </div>
         </div>

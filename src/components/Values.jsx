@@ -4,12 +4,10 @@ import Heading from '../common/Heading'
 
 const Values = () => {
     return (
-        <div className='pt-[69px] pb-[50px]'>
+        <div className='pt-[78px] pb-[50px]'>
             <div className='container'>
-                <div>
                     <Heading text={'Values'} />
                     <img src="/assets/images/svg/heading-line.svg" alt="heading-line" className='mx-auto lg:max-w-[344px] sm:max-w-[242px] max-w-[210px] lg:-translate-y-20 sm:-translate-y-14 -translate-y-12' />
-                </div>
                 <div className='flex flex-row flex-wrap -mx-3 xl:pt-[69px] md:pt-14 pt-9 lg:-mt-20 sm:-mt-14 -mt-12'>
                     {VALUES_CARDS.map((values, index) => (
                         <div key={index} className='lg:w-[33.33%] md:w-[50%] w-full relative group px-2 lg:mb-0 md:mb-6 mb-5'>

@@ -5,16 +5,15 @@ import { WHO_KARMIC_DATA } from '../utils/helper'
 
 const Karmic = () => {
     return (
-        <div className='lg:pb-[69px] md:py-20 max-sm:py-12 lg:pt-20 relative' id='about'>
+        <div className='lg:pb-[78px] md:py-20 max-sm:py-12 lg:pt-20 relative -mt-5' id='about'>
             <div className='absolute size-[226px] rounded-full bg-white blur-[110px] -z-10 shadow-white top-[-117px] right-0 lg:block hidden'></div>
             <div className="container relative">
-                <div>
+                <img src="/assets/images/svg/heading-line.svg" alt="heading-line"
+                    className='mx-auto relative -z-10 lg:max-w-[380px] sm:max-w-[253px] max-w-[210px] lg:-mb-[76px] sm:-mb-12 -mb-11' />
                     <Heading
                         text={'Who is karmic?'}/>
-                    <img src="/assets/images/svg/heading-line.svg" alt="heading-line" className='mx-auto lg:max-w-[398px] sm:max-w-[242px] max-w-[210px] lg:-translate-y-[85px] sm:-translate-y-14 -translate-y-12' />
-                </div>
                 <Description
-                    classStyle={'mx-auto text-center pt-4 lg:-mt-[85px] sm:-mt-14 -mt-12'}
+                    classStyle={'mx-auto text-center pt-4 pb-[2px]'}
                     text={'We are builders, innovaters, and believers.'}/>
                 <Description
                     classStyle={'max-w-[532px] mx-auto text-center'}

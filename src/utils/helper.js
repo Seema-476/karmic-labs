@@ -1,4 +1,4 @@
-import { BlockChain, FacebookIcon, InstagramIcon,Trust, TwitterIcon, ValueW, YoutubeIcon } from '../utils/icons'
+import { BlockChain, Consultation, FacebookIcon, InstagramIcon,Media,NftServices,SmartContract,Trust, TwitterIcon, ValueW, WebServices, YoutubeIcon } from '../utils/icons'
 export const NAV_DATA_LIST = [
     { data: 'Home', link: '#home' },
     { data: 'Services', link: '#services' },
@@ -8,14 +8,14 @@ export const NAV_DATA_LIST = [
 export const SERVICES_CARDS = [
     {
         circle: "/assets/images/webp/white-circle.webp",
-        image: "/assets/images/svg/smart-contract.svg",
+        cardSvg:<SmartContract/>,
         title: "Smart Contract ",
         description: "Tailored smart contracts to fit your needs, no matter the size. No idea is too big, too small, or too degen...",
         content: [] 
     },
     {
         circle: "/assets/images/webp/white-circle.webp",
-        image: "/assets/images/svg/web-services.svg",
+        cardSvg: <WebServices />,
         title: "Web3 Services",
         content: [
             {
@@ -37,21 +37,21 @@ export const SERVICES_CARDS = [
     },
     {
         circle: "/assets/images/webp/white-circle.webp",
-        image: "/assets/images/svg/media.svg",
+        cardSvg: <Media />,
         title: "Marketing / Media",
         description: "We have worked with some of the spaces most reputable figures to drive audiences.",
         content: [] 
     },
     {
         circle: "/assets/images/webp/white-circle.webp",
-        image: "/assets/images/svg/consultation.svg",
+        cardSvg: <Consultation />,
         title: "Consultation",
         description: "Have an idea but not sure where to start? Hop on a call with us and we will help you to put plans into action.",
         content: []
     },
     {
         circle: "/assets/images/webp/white-circle.webp",
-        image: "/assets/images/svg/nft-services.svg",
+        cardSvg: <NftServices />,
         title: "NFT Services",
         description: "NFT solutions from start to finish. From Initial Concept to Secondary market listings, we will guide you every step of the way to ensure your project is successfully and seamlessly delivered come mint day.",
         content: [] 
