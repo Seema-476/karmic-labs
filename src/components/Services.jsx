@@ -5,6 +5,7 @@ import { SERVICES_CARDS } from '../utils/helper'
 const Services = () => {
     return (
         <div className='lg:pt-12 sm:pt-12 pt-6 relative -mb-10 lg:pb-0' id='services'>
+            <div className='absolute size-[226px] rounded-full bg-white blur-[110px] -z-10 shadow-white bottom-[-133px] -left-3 lg:block hidden'></div>
             <div className='absolute right-0 -top-[37%] -z-10 lg:block hidden'><img src="assets/images/svg/services-right-ellipse.svg" alt="services-right-ellipse" /></div>
             <div className='container'>
                     <img src="/assets/images/svg/heading-line.svg" alt="services-line"
