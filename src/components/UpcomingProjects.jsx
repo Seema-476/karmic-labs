@@ -16,7 +16,7 @@ const UpcomingProjects = () => {
                     {UPCOMING_PROJECTS.map((project) => (
                         <div
                             key={project.id}
-                            className="lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-full xl:px-[14.5px] px-3">
+                            className="lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-full xl:px-[14.5px] px-3 hover:scale-105 duration-700">
                             <div className='xl:p-4 p-3 border backdrop-blur-[10px] bg-white/10 rounded-xl lg:mb-0 mb-5 border-dusk-black mx-auto max-w-[263px] w-full'>
                                 <div className='pb-4'>
                                     <img
