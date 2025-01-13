@@ -30,7 +30,7 @@ const Header = () => {
   }, [isMenuOpen])
 
   return (
-    <div className="flex items-end relative pt-[14px]">
+    <div className="flex items-end relative md:pt-[14px] max-md:py-2">
       <div className='absolute top-0 left-0 -z-10'>
         <img src="/assets/images/svg/header-ellipse.svg" alt="header-ellipse" />
       </div>
