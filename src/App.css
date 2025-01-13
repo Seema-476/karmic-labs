@@ -6,10 +6,6 @@ body {
   font-family: 'Space Grotesk', sans-serif !important;
 }
 
-.started-btn:hover svg {
-  fill: white !important;
-}
-
 .text-stroke:hover {
   -webkit-text-stroke: 0.5px white;
 }

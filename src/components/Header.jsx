@@ -1,5 +1,5 @@
 import React from 'react';
-import { NAV_DATA_LIST} from '../utils/helper';
+import { NAV_DATA_LIST } from '../utils/helper';
 import { useEffect, useState } from 'react';
 import CustomButton from '../common/CustomButton';
 
@@ -82,7 +82,7 @@ const Header = () => {
                 ))}
               </div>
             </div>
-       <CustomButton customOnClick={()=>setIsMenuOpen(false)} classStyle={'bg-white md:!py-[11.3px] hover:text-white hover:bg-transparent'} text={'Connect Wallet'} classDesign={'hidden'} />
+            <CustomButton customOnClick={() => setIsMenuOpen(false)} classStyle={'bg-white md:!py-[11.3px] hover:text-white hover:bg-transparent'} text={'Connect Wallet'} classDesign={'hidden'} />
           </div>
         </div>
       </div>
