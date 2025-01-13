@@ -14,7 +14,7 @@ const Values = () => {
                             <div className='absolute -top-[18px] xl:-right-4 -right-2 group-hover:opacity-100 opacity-0 transition-opacity duration-700 -z-10'>
                                 <img src={values.circle} alt="circle" className='xl:w-[73px] xl:h-[74px] size-16 shadow-custom-2xl' />
                             </div>
-                            <div className="xl:max-w-[369px] rounded-xl border border-dusk-black xl:p-[19.5px] p-4 hover:bg-dusk-black hover:backdrop-blur-lg">
+                            <div className="xl:max-w-[369px] lg:min-h-[294px] md:min-h-[270px] min-h-[210px] rounded-xl border border-dusk-black xl:p-[19.5px] p-4 hover:bg-dusk-black hover:backdrop-blur-lg">
                                 {values.cardSvgIcon}
                                 <h3 className="font-bold text-xl leading-custom-4xl text-white py-[10px]">
                                     {values.title}

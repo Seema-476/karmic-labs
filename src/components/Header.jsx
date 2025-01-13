@@ -40,7 +40,7 @@ const Header = () => {
             <img className='lg:max-w-[156px] max-w-[120px] pointer-events-none' src="/assets/images/webp/header-logo.webp" alt="nav-logo" />
           </a>
           <div className='lg:block hidden'>
-            <div className="flex gap-8 items-center">
+            <div className="flex gap-10 items-center">
               {NAV_DATA_LIST.map((obj, index) => (
                 <a onClick={toggleMenu}
                   key={index}
